@@ -5,7 +5,7 @@ html {
 body {
     background-image: url("../images/connectwork.png");
     height: 100%;
-    position: relative
+    position: relative;
 }
 
 #header {
@@ -36,7 +36,10 @@ li {
 
 #main {
     background: white;
-    margin: 2%
+    margin: 2%;
+    margin-bottom: 70px;
+    padding-bottom: 25px;
+    border-radius: 5px;
 }
 
 h2 {
@@ -62,18 +65,27 @@ aside {
 
 img {
     margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.thumbnail {
+    width: 100%;
+    position: relative;
 }
 
 .label {
     height: 60px;
     width: 100%;
-    margin: 40px 0px 0px 0px;
+    bottom: 0px;
     background-color: #207EE8;
     position: absolute;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 60px;
-    color: black
+    color: black;
+    border-radius: 5px;
 }
 
 form {
