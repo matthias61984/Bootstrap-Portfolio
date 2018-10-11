@@ -92,6 +92,11 @@ form {
     margin: 20px
 }
 
+i {
+    margin: 25px;
+    color: black;
+}
+
 .blueBar {
     height: 10px;
     background-color: #207EE8;
