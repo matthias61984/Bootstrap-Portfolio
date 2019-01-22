@@ -97,6 +97,10 @@ i {
     color: black;
 }
 
+.techList {
+    text-align: center;
+}
+
 .blueBar {
     height: 10px;
     background-color: #207EE8;
@@ -107,7 +111,7 @@ i {
 footer {
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 80px;
     text-align: center;
     line-height: 60px;
     background-color: #666666;
