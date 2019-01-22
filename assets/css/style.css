@@ -73,6 +73,7 @@ img {
 .thumbnail {
     width: 100%;
     position: relative;
+    padding-bottom: 20px;
 }
 
 .label {
@@ -80,7 +81,7 @@ img {
     width: 100%;
     bottom: 0px;
     background-color: #207EE8;
-    position: absolute;
+    position: relative;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height: 60px;
@@ -95,6 +96,11 @@ form {
 i {
     margin: 25px;
     color: black;
+}
+
+.appPic {
+    position: relative;
+    height: 200px;
 }
 
 .techList {
